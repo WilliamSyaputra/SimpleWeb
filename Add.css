@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.Frame {
+  width: 859px;
+  height: 646px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.Background {
+  width: 859px;
+  height: 646px;
+  background: url("../images/BG.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.GambarMain {
+  width: 503px;
+  height: 223px;
+  background: url("../images/Mamals.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 22px;
+  left: 175px;
+  overflow: hidden;
+}
+.Judul {
+  width: 486px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 245px;
+  left: 192px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.KotakTextIsi {
+  width: 551px;
+  height: 297px;
+  background: rgba(1,118,199,0.6200000047683716);
+  opacity: 1;
+  position: absolute;
+  top: 323px;
+  left: 165px;
+  overflow: hidden;
+}
+.TextIsi {
+  width: 551px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 323px;
+  left: 165px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.Back {
+  width: 150px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 577px;
+  left: 0px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}

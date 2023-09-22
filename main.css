@@ -1,0 +1,362 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.Frame {
+  width: 859px;
+  height: 646px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.Background {
+  width: 859px;
+  height: 646px;
+  background: url("../images/BG.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.NavBar {
+  position: absolute;
+  width: 861px;
+  height : 41px;
+  left: 0px;
+  top: 0px;
+
+background: #6469EB;
+}
+.GroupJudul {
+  width: 539px;
+  height: 111px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 59px;
+  left: 160px;
+  overflow: hidden;
+}
+.KotakJdul {
+  width: 539px;
+  height: 111px;
+  background: rgba(133,182,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.JudulMain {
+  width: 441px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 5px;
+  left: 49px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.SubJudulMain {
+  width: 465px;
+  color: rgba(0,56,255,1);
+  position: absolute;
+  top: 46px;
+  left: 36px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.GambarMammals {
+  width: 233px;
+  height: 145px;
+  background: url("../images/Mamals.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 192px;
+  left: 174px;
+  overflow: hidden;
+}
+.GambarSHark {
+  width: 233px;
+  height: 145px;
+  background: url("../images/Hiu.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 192px;
+  left: 466px;
+  overflow: hidden;
+}
+.GambarTurtles {
+  width: 233px;
+  height: 145px;
+  background: url("../images/Kura.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 386px;
+  left: 174px;
+  overflow: hidden;
+}
+.GambarOceanFishes {
+  width: 233px;
+  height: 145px;
+  background: url("../images/Ikan.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 390px;
+  left: 466px;
+  overflow: hidden;
+}
+.TextMammals {
+  width: 228px;
+  color: rgba(255,255,255,1);
+  list-style-type: none;
+  position: absolute;
+  top: 50px;
+  left: 4px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.TextTurtles {
+  width: 225px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 63px;
+  left: 0px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.TextOceanFishes {
+  width: 225px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 55px;
+  left: 8px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.TextShark {
+  width: 225px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 58px;
+  left: 7px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.Footer {
+  width: 859px;
+  height: 46px;
+  background: rgba(99,105,234,1);
+  opacity: 1;
+  position: absolute;
+  top: 600px;
+  left: 0px;
+  overflow: hidden;
+}
+.LinkIg {
+  width: 179px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 608px;
+  left: 9px;
+  list-style-type: none;
+
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.LinkFacebook {
+  width: 179px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 608px;
+  left: 671px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.JudulNavbar {
+  width: 136px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 5px;
+  left: -10px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.Register {
+  width: 181px;
+  color: rgba(255,255,255,1);
+  list-style-type: none;
+  position: absolute;
+  top: 3px;
+  left: 678px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 24px;
+  opacity: 1;
+  text-align: center;
+}
+.ContainerMammals{
+  width: 233px;
+  height: 145px;
+  background: url("../images/Mamals.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 192px;
+  left: 174px;
+  overflow: hidden;
+}
+.overlayMamals {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.ContainerMammals:hover .overlayMamals {
+  opacity: 1;
+}
+.ContainerShark{
+  width: 233px;
+  height: 145px;
+  background: url("../images/Hiu.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 192px;
+  left: 465px;
+  overflow: hidden;
+}
+.overlayMSharks {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.ContainerShark:hover .overlayMSharks {
+  opacity: 1;
+}
+.ContainerTurtles{
+  width: 233px;
+  height: 145px;
+  background: url("../images/Kura.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 392px;
+  left: 176px;
+  overflow: hidden;
+}
+.overlayTurtles {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.ContainerTurtles:hover .overlayTurtles {
+  opacity: 1;
+}
+.ContainerFishes{
+  width: 233px;
+  height: 145px;
+  background: url("../images/Ikan.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 392px;
+  left: 468px;
+  overflow: hidden;
+}
+.overlayFishes {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.ContainerFishes:hover .overlayFishes {
+  opacity: 1;
+}

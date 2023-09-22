@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-size: 14px;
+  }
+  .Background {
+    width: 100%;
+    height: 982px;
+    background: url("images/BG.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+  }
+  .JudulDaftar {
+    width: 491px;
+    color: rgba(255,255,255,1);
+    position: absolute;
+    top: 6px;
+    left: 510px;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 96px;
+    opacity: 1;
+    text-align: center;
+  }
+  .MenuHome {
+    width: 218px;
+    color: rgba(255,255,255,1);
+    position: relative;
+    list-style-type: none;
+    top: 4px;
+    left: 641px;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 80px;
+    opacity: 1;
+    text-align: center;
+  }
+  .SubJud {
+    width: 218px;
+    color: rgba(255,255,255,1);
+    position: relative;
+    list-style-type: none;
+    top: 17px;
+    left: 239px;
+    font-family: Inter;
+    font-weight: Medium;
+    font-size: 80px;
+    opacity: 1;
+    text-align: center;
+  }
+  .KotakRegister {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 251px;
+    left: 35px;
+    overflow: hidden;
+    margin-left: 75px;
+  }
+  .UserName {
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 32px;
+  }
+  #txtUsername {
+    width: 803px;
+    height: 48px;   
+  }
+  .Email {
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 32px;
+  }
+  #txtEmail {
+    width: 803px;
+    height: 48px;   
+  }
+  .Gender {
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 32px;
+  }
+  .Male {
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 32px;
+  }
+  #rMale {
+    width: 55px;
+    height: 28px;   
+  }
+  .Female {
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 32px;
+  }
+  #rFemale {
+    width: 75px;
+    height: 28px;   
+  }
+  .KotakCheckbox {
+    width: 75px;
+    height: 30px;
+ 
+  }
+  .Agree {
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 32px;
+  }
+  #chkAgree {
+    width: 28px;
+    height: 25px;     
+  }
+  .kotakSumbit{
+    width: 28px;
+    height: 25px;  
+  }
+  #Sumbit {
+    position: absolute;
+    width: 407px;
+    height: 136px;
+    left: 564px;
+    top: 466px;
+    color: #fff;
+    background: rgba(69, 35, 124, 0.45);
+    border-radius: 36px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 32px;
+  }
+  #error {
+    width: 407px;
+    height: 136px;
+    font-size: 30px;
+  }
